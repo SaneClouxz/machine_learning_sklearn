@@ -22,7 +22,7 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 acc = accuracy_score(y_test, predictions)
 
-# printing the predictions and all
+# printing the predictions and alll
 print(f'Prediction: {predictions}')
 print(f'Actual: {y_test}')
 print(acc)
